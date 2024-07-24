@@ -42,7 +42,8 @@ version = "0.5"
 features = ["imxrt1062"]
 
 [dependencies.imxrt-hal]
-version = "0.5.3"
+git = 'https://github.com/imxrt-rs/imxrt-hal.git'
+branch = 'main'
 features = ["imxrt1060"]
 
 [dependencies.imxrt-rt]
